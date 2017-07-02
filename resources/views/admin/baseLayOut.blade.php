@@ -46,8 +46,8 @@
     </div>
     <div class="nav">
         <div class="navContent" id="_navContentWrapper">
-            <div class="navPart homePageNav" data-operate_type="home_page" >首页</div>
-            <div class="navPart productFunctionNav" data-operate_type="function" >功能</div>
+            <div class="navPart homePageNav" data-operate_type="home_page" >这是导航栏一</div>
+            <div class="navPart productFunctionNav" data-operate_type="function" >这是导航栏二</div>
             <div class="navPart versionSelectNav" data-operate_type="version" >版本</div>
             <div class="navPart excellentCaseNav" data-operate_type="excellent_case" >案例</div>
             <div class="navPart partIntro" data-operate_type="about_us">关于我们</div>
