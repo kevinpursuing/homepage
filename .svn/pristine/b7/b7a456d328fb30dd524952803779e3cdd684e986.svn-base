@@ -1,0 +1,2 @@
+#page-banner{text-align:center;margin:0 auto;height:34.28em;background:url(../images/pic_banner.png);\
+    background-size:cover;-ms-behavior:url(../css/ie/backgroundsize.min.htc);behavior:url(../css/ie/backgroundsize.min.htc)}

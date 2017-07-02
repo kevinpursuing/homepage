@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>小鹅，让内容付费更简单</title>
+    <link rel='icon' href='logo-64.ico' type=‘image/x-ico’ />
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+    <meta name="keywords" content="小程序,微信小程序,自媒体,小鹅,鹅晓,知识付费,社群">
+    <?php /*<meta name="viewport" content="height=device-height,width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">*/ ?>
+
+    <link type=text/css rel="stylesheet" href="<?php echo e(asset('css/external/bootstrap.min.css')); ?>">
+    <link type=text/css rel="stylesheet" href="<?php echo e(asset('css/admin/welcome.css')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo e(asset('css/external/xcConfirm.css')); ?>">
+    <script src="../js/external/jquery.js"></script>
+    <script src="../js/external/xcConfirm.js"></script>
+    <script type="text/javascript" src="../js/admin/jquery-1.js"></script>
+    <script src='../js/admin/nav.js'></script>
+    <script src='../js/admin/config/config.js'></script>
+    <script src="../js/external/jquery.cookie.js"></script>
+    <script src="../js/admin/homePageAdmin.js"></script>
+    <script>
+        var device ="<?php echo e($device); ?>";
+    </script>
+    <fontbase family="Helvetica, Tahoma, Arial, “Hiragino Sans GB”, “Hiragino Sans GB W3”, “Microsoft YaHei”, STXihei, STHeiti, Heiti, SimSun, sans-serif"></fontbase>
+</head>
+
+<body>
+
+<div class="container-fluid" style="padding: 0 0">
+
+    <div class="nav-height" id="navHeight">
+        <nav style="width: 100%;height: 4.57em;overflow: hidden" class="nav-wrap navFix" id="nav-wrap";>
+            <div style="width: 80%;height: 100%;">
+                <div class="div_logo">
+                    <img src="../images/logo-xiaoe.png" style="height: 70%;">
+                </div>
+                <div style="float: right;width: 60%;height: 4.57em">
+                    <div class="nav-mobile"></div>
+                    <ul class="clearfix">
+                        <li><a class="active" href="#page-banner">首页</a></li>
+                        <li><a class="nav-li" href="#page-product">产品功能</a></li>
+                        <li><a class="nav-li" href="#page-example">合作案例</a></li>
+                        <li><a class="nav-li" href="#page-team">关于我们</a></li>
+
+                        <li>
+                            <p style="cursor: pointer;display: block;padding: 1.25em 1.25em;font-size:1em; text-decoration: none; line-height: 2em;height: 100%;color: #1757f0" class="nav-li"onclick="Goexample()">立即体验</p>
+                        </li>
+
+                        <li><div style="line-height: 4.57em;height: 100%;">
+                                <button style="" type="button" class="btn btn-default sub">
+                                    登录
+                                </button>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="page-banner" class="section-content banner" style="background:url('../images/pic_banner.png');background-size: 100% 100%;">
+        <div class="div-banner-content" style="position: relative;text-align: left;width: 80%;height: 100%">
+            <div style="position: absolute;top: 32%;left: 0;height: 10.5%;">
+                <p class="title-l" style="height: 100%;margin: 0;color: white;font-size: 2.57em">小鹅，让内容付费更简单</p> </div>
+            <div style="position: absolute;top: 44.6%;left: 0;height: 7% ;">
+                <p class="title-s" style="line-height: 2.43em;color: white;font-size: 1.285em">为自媒体打造自己的微信小程序，提供丰富的内容付费与社群运营服务</p></div>
+            <div style="position: absolute;top: 56%;left: 0;height: 7.5% ;">
+                <button id ="btn_sub_l" type="button" class="btn btn-primary">立即使用</button></div>
+            </div>
+    </div>
+
+    <div id="page-product" class="section-content" style="text-align: center;margin: 0 auto;background:white;width: 100%;overflow: hidden;height: 50em">
+        <?php /*height: 50em;*/ ?>
+        <div style="height: 10%"><p class="title"style="margin-top: 2.86em;font-size: 2em">产品特点</p></div>
+        <div class="div-product-info" style="text-align: left; width: 75%;height: 90%;overflow: hidden">
+            <div class="product" style="margin: 15px auto;text-align: center;float: left;width: 33%;height: 40%;">
+                <img src="../images/icon_zhishifufei.png">
+                <h3>知识付费</h3>
+                <p class="content-s">图文、音视频等多样化表达方式<br>支持专栏订阅、付费阅读等产品模式</p>
+            </div>
+            <div class="product" style="margin: 15px auto;text-align: center;float: left;width: 33%;height: 40%;">
+                <img src="../images/icon_huiyuan.png">
+                <h3>会员体系</h3>
+                <p class="content-s">免费、月费、年费、永久会员<br>满足各类会员系统需求</p>
+            </div>
+            <div class="product" style="margin: 15px auto;text-align: center;float: left;width: 33%;height: 40%;">
+                <img src="../images/icon_quanzi2.png">
+                <h3>社群运营</h3>
+                <p class="content-s">评论/点赞/讨论/精选/置顶<br>小纸条/圈子/个性化消息/轮播图</p>
+            </div>
+            <div class="product" style="margin: 15px auto;text-align: center;float: left;width: 33%;height: 40%;">
+                <img src="../images/icon_zhanghudatong.png">
+                <h3>账号打通</h3>
+                <p class="content-s">公众号/小程序用户互通<br>子账号管理</p>
+            </div>
+            <div class="product" style="margin: 15px auto;text-align: center;float: left;width: 33%;height: 40%;">
+                <img src="../images/icon_yonghuhuaxiang.png">
+                <h3>用户画像</h3>
+                <p class="content-s">用户资料/标签/画像<br>用户行为记录/智能分析</p>
+            </div>
+            <div class="product" style="margin: 15px auto;text-align: center;float: left;width: 33%;height: 40%;">
+                <img src="../images/icon_data.png">
+                <h3>运营数据</h3>
+                <p class="content-s">舆情监控/自动屏蔽广告/自动回复<br>内容分析/活跃分析/财务分析</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-example" class="section-content" style="text-align: center;margin: 0 auto;background:#fbfbfb;height: 100em;width: 100%;overflow: hidden">
+        <div><p class="title" style="font-size: 28px;margin-top: 1.43em;">合作案例 - 吴晓波频道</p></div>
+        <div class="div-example-info" style="margin-top:3.57em;text-align: left; width: 80%;height: 47.28%;overflow: hidden">
+            <div class="example" style="float: left;width: 35%;height: 100%;">
+                <div style="padding-top: 168px;height: 100%;line-height: 100%">
+                    <div style="height: auto;">
+                        <p class="title-m" style="height: 1.57em;font-size: 1.57em;">内容分享</p>
+                        <p style="margin-top: 1.43em">订阅专栏音频节目 <br>“每天听见吴晓波”<br> 上线三个月获5万订阅用户</p>
+                    </div>
+                    <div style="margin-top: 59px;height: auto;">
+                        <p class="title-m" style="height: 1.57em;font-size: 1.57em;">用户社群</p>
+                        <p style="margin-top: 1.43em">优质内容讨论自动分享到圈子<br> 各地书友线上随时分享心得<br> 互通线下精彩活动</p>
+                    </div>
+                </div>
+            </div>
+            <div class="example" style="float: left;width: 65%;height: 100%;">
+                <img style="width: 100%; height: 100%" src="../images/pic_app.png">
+            </div>
+        </div>
+
+        <div class="div-example-info" style="margin-top: 9.6em;text-align: right; width: 80%;height: 30%;overflow: hidden">
+            <div class="example" style="float: left;width: 65%;height: 100%;">
+                <img style="width: 100%;height: 100%" src="../images/pic_web.png">
+            </div>
+            <div class="example" style="padding-left: 64px;float: right;max-width: 35%;height: 100%;">
+                <div style="text-align: left;padding-top: 162px;height: 100%;line-height: 100%">
+                    <div style="height: auto;">
+                        <p class="title-m" style="height: 1.57em;font-size: 1.57em;">数据分析平台</p>
+                        <p style="margin-top: 1.43em">定时发送内容、消息<br> 智能平台舆论监控，自动回复<br> 实时音频收听情况分析<br> 管理用户信息和行为画像</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="page-team" class="section-content" style="text-align: center;margin: 0 auto;background:white;height: 35.71em;width: 100%;overflow: hidden">
+        <div><p class="title" style="margin-bottom: 2.5em;margin-top: 1.43em;font-size: 28px;">团队介绍</p></div>
+        <div class="div-Team-info" style="text-align: left; width: 80%;height:22.14em;overflow: hidden">
+            <div class="Team" style="text-align: center;float: left;width: 25%;height: 100%;">
+                <img src="../images/pic_bag.png">
+                <h4>鲍春健</h4>
+                <p style="margin-top: 2px" class="info-team">创始人<br></p>
+                <p class="info-team">10年大数据相关研发经验<br>原腾讯数据平台部总监，T4级专家<br>国内大数据行业专家</p>
+            </div>
+            <div class="Team" style="text-align: center;float: left;width: 25%;height: 100%;">
+                <img src="../images/pic_nick.png">
+                <h4>王良虎</h4>
+                <p style="margin-top: 2px" class="info-team">联合创始人<br></p>
+                <p class="info-team">6年移动互联网相关经验<br>曾负责腾讯QQ空间产品设计研发<br>主导空间来电APP等项目</p>
+            </div>
+            <div class="Team" style="text-align: center;float: left;width: 25%;height: 100%;">
+                <img src="../images/pic_jojonn.png">
+                <h4>曾勇军</h4>
+                <p style="margin-top: 2px" class="info-team">联合创始人<br></p>
+                <p class="info-team">中南大学计算机硕士<br>原腾讯T3高级工程师，7年大数据平台<br>及应用的后台技术研发经验</p>
+            </div>
+            <div class="Team" style="text-align: center;float: left;width: 25%;height: 100%;">
+                <img src="../images/pic_vince.png">
+                <h4>喻千里</h4>
+                <p style="margin-top: 2px" class="info-team">联合创始人<br></p>
+                <p class="info-team">武汉大学毕业<br>负责QQ空间产品开发<br>擅长前端开发和优化</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="page-joinUs" class="section-content" style="text-align: center;margin: 0 auto;background:#37353b;height: 14.64em;width: 100%;overflow: hidden">
+        <div class="div-joinUs-info" style="text-align: left; width: 80%;overflow: hidden">
+            <div class="" style="float: left;width: 50%;height: 100%;">
+                <h5 class="info-white">联系我们</h5>
+                <h5 class="info-gray">商务合作：mailto@xiaoe-tech.com</h5>
+                <h5 class="info-gray">公司地址：深圳市福田区深南中路田面设计之都创意产业园11栋五楼</h5>
+            </div>
+            <div class="" style="float: right;width: 25%;height: 100%;">
+                <div style="text-align: center">
+                    <h5 class="info-white">鹅晓公众号</h5>
+                    <img style="width: 7.133em;height: 7.133em" src="../images/pic_gongzhonghao.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="div-info" style="text-align: center;margin: 0 auto;background:#28292d;height: 3.57em;line-height: 3.57em;width: 100%;overflow: hidden">
+        <p style="font-size: 12px;color: #666666">Copyright © 2015-2016 深圳小鹅网络技术有限公司 ALL Rights Reserved.</p>
+        <a id= "btn_top" onclick="goTop()" style="display: none;position: fixed;height: 60px;width: 60px;right: 5%;bottom: 5%;z-index: 9999;" href="javasript:;">
+            <img style="height: 4.286em;width: 4.286em" src="../images/top@3x.png">
+        </a>
+    </div>
+
+</div>
+</body>
+
+
+<script type="text/javascript" src="<?php echo e(URL::to('js/external/bootstrap.min.js')); ?>"></script>
+
+</html>

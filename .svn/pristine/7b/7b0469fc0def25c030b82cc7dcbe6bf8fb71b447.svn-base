@@ -1,0 +1,57 @@
+.package_list {
+    min-height: 550px;
+    padding: 20px;
+    padding-top: 30px;
+
+}
+
+.list_item {
+    float: left;
+    min-width: 30%;
+    margin-bottom:40px;
+}
+.list_item img {
+    vertical-align: middle;
+    width: 100px;
+    height: 80px
+}
+
+.item_div {
+    display: inline-block;
+    height: 80px;
+    vertical-align: middle;
+}
+.item_title{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.item_operate{
+    margin-top: 35px;
+    font-size: 13px;
+}
+.operate_item_left{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.operate_item_left:hover{
+    color:#2e64cb;
+}
+
+.operate_item_right{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.operate_item_right:hover{
+    color:#2e64cb;
+}
+
+.operate_create{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.item_click{
+    cursor: pointer;
+}

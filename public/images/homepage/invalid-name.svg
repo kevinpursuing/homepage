@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <rect id="a" width="48" height="38" y="6" rx="4"/>
+        <path id="b" d="M0 10a6 6 0 0 1 6.008-6H13.2c1.106 0 2.502.736 3.126 1.655l2.382 3.51c.312.461 1.017.835 1.571.835h21.717A6 6 0 0 1 48 16v22a6 6 0 0 1-6.006 6H6.006A6.003 6.003 0 0 1 0 38V10z"/>
+        <path id="c" d="M48 37.989v.017A5.997 5.997 0 0 1 41.994 44H6.006A6.001 6.001 0 0 1 0 38.004V38"/>
+        <circle id="d" cx="24" cy="25" r="9"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h48v48H0z"/>
+        <use fill="#D9E4F5" xlink:href="#a"/>
+        <rect width="46" height="36" x="1" y="7" stroke="#2A75ED" stroke-width="2" rx="4"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <path stroke="#2A75ED" stroke-width="2" d="M1 10a5 5 0 0 1 5.008-5H13.2c.777 0 1.862.574 2.299 1.217l2.381 3.51c.498.735 1.513 1.273 2.399 1.273h21.717A5 5 0 0 1 47 16v22a5 5 0 0 1-5.006 5H6.006A5.003 5.003 0 0 1 1 38V10z"/>
+        <use fill="#E7F0FF" xlink:href="#c"/>
+        <path stroke="#2A75ED" stroke-width="2" d="M46.903 38.989A5 5 0 0 1 41.993 43H6.007A5.005 5.005 0 0 1 1.1 39l45.804-.011z"/>
+        <g>
+            <use fill="#B9C9E4" xlink:href="#d"/>
+            <circle cx="24" cy="25" r="8.5" stroke="#2A75ED"/>
+        </g>
+        <path fill="#FFF" d="M23.224 30H24.8v-2.499h2.81v-.833H24.8v-.833h2.81V25h-2.09L28 20h-2.119l-.951 2.247a158.9 158.9 0 0 0-.865 2.08h-.072c-.303-.693-.577-1.387-.85-2.08L22.19 20H20l2.465 5h-2.061v.835h2.82v.833h-2.82v.833h2.82V30z"/>
+    </g>
+</svg>
