@@ -48,10 +48,10 @@
         <div class="navContent" id="_navContentWrapper">
             <div class="navPart homePageNav" data-operate_type="home_page" >这是导航栏一</div>
             <div class="navPart productFunctionNav" data-operate_type="function" >这是导航栏二</div>
-            <div class="navPart versionSelectNav" data-operate_type="version" >版本</div>
-            <div class="navPart excellentCaseNav" data-operate_type="excellent_case" >案例</div>
-            <div class="navPart partIntro" data-operate_type="about_us">关于我们</div>
-            <div class="chosen_shop" data-operate_type="chosen_shop">精选商城</div>
+            <div class="navPart versionSelectNav" data-operate_type="version" >这是导航栏三</div>
+            <div class="navPart excellentCaseNav" data-operate_type="excellent_case" >这是导航栏四</div>
+            <div class="navPart partIntro" data-operate_type="about_us">这是导航栏六</div>
+            <div class="chosen_shop" data-operate_type="chosen_shop">这是导航栏六</div>
         </div>
     </div>
     <div class="btnBlue loginBtn loginLink">登录</div>
