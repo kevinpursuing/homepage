@@ -30,8 +30,8 @@
         {{--横幅--}}
         <div class="banner">
 
-            <div class="bannerTitleSmall">小鹅通，专注于知识服务与社群运营的SaaS云</div>
-            <div class="bannerTitleBig">一分钟拥有自己的知识店铺，零门槛实现内容变现</div>
+            <div class="bannerTitleSmall">这是一个标题</div>
+            <div class="bannerTitleBig">这是小标题</div>
             <div class="bannerBtnGroup">
                 <div id="signIn" class="btnBlue experienceBtn loginLink">一键创建知识店铺</div>
                 {{--<div class="btnGrey openBtn experienceLink">快速体验</div>--}}
