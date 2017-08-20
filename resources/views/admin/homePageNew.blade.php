@@ -30,7 +30,7 @@
         {{--横幅--}}
         <div class="banner">
 
-            <div class="bannerTitleSmall">这是一个标题</div>
+            <div class="bannerTitleSmall">这里改动</div>
             <div class="bannerTitleBig">这是小标题</div>
             <div class="bannerBtnGroup">
                 <div id="signIn" class="btnBlue experienceBtn loginLink">一键创建知识店铺</div>
